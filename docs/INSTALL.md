@@ -11,7 +11,9 @@
 
 Плагин не требует сети, Electron, модели и прав администратора.
 
-## Вариант 1: из npm (после публикации)
+## Вариант 1: из npm
+
+Пакет: [dsh-pet-cactus](https://www.npmjs.com/package/dsh-pet-cactus) (0.1.5).
 
 ```sh
 dsh plugin --profile desktop add dsh-pet-cactus

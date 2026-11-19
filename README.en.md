@@ -69,6 +69,8 @@ through four routes and nothing else.
 dsh plugin --profile desktop add dsh-pet-cactus
 ```
 
+On npm: [dsh-pet-cactus](https://www.npmjs.com/package/dsh-pet-cactus).
+
 Then **fully restart DSH**: the host half is read when the app starts, and refreshing the
 page will not pick it up. After the restart the cactus appears in the bottom-right corner.
 

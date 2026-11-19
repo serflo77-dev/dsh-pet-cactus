@@ -66,6 +66,8 @@
 dsh plugin --profile desktop add dsh-pet-cactus
 ```
 
+Пакет в npm: [dsh-pet-cactus](https://www.npmjs.com/package/dsh-pet-cactus).
+
 Затем **полностью перезапустить DSH**: host-половина читается при старте приложения,
 обновление страницы её не подхватит. После перезапуска кактус появится в правом
 нижнем углу.
