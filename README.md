@@ -1,5 +1,10 @@
 # 🌵 dsh-pet-cactus
 
+[![npm](https://img.shields.io/npm/v/dsh-pet-cactus?color=2f8f5b)](https://www.npmjs.com/package/dsh-pet-cactus)
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![node](https://img.shields.io/badge/node-%E2%89%A522-339933)](package.json)
+[![DSH](https://img.shields.io/badge/DSH-0.2.2--rc.3-6f42c1)](package.json)
+
 [Русский](README.md) · [English](README.en.md)
 
 Раньше кактус ставили рядом с монитором — «чтобы ловил излучение».
