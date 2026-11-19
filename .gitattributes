@@ -1,0 +1,20 @@
+# Единые переводы строк: в репозитории LF, в рабочей копии — как принято в системе.
+* text=auto eol=lf
+
+# Бинарные ассеты не трогаем: никаких переводов строк и диффов на весь файл.
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+
+# Скрипты и конфиги — явно текстовые, чтобы GitHub их подсвечивал.
+*.mjs text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+
+# Собранный бандл помечаем как сгенерированный: он не участвует в статистике
+# языков, но обязан лежать в репозитории — установка из git не должна его собирать.
+lib/client.js linguist-generated=true

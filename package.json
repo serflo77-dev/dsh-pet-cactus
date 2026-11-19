@@ -1,0 +1,71 @@
+{
+  "name": "dsh-pet-cactus",
+  "version": "0.1.5",
+  "description": "Кактус-питомец для DeepSeek Harness: живёт в углу Web-GUI, реагирует на работу агента и говорит по-русски.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop-pet",
+    "pet",
+    "cactus",
+    "cordis",
+    "react"
+  ],
+  "homepage": "https://github.com/serflo77-dev/dsh-pet-cactus#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serflo77-dev/dsh-pet-cactus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serflo77-dev/dsh-pet-cactus/issues"
+  },
+  "author": "Samugor",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "assets/icon.webp",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "assets",
+    "!assets/source.jpg",
+    "!assets/pet.png",
+    "!assets/pet-plate.png",
+    "!assets/plates-0.1.4.png",
+    "!assets/icon-sizes.png",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build-client.mjs",
+    "test": "node scripts/test.mjs",
+    "preview": "node scripts/preview.mjs",
+    "prepack": "node scripts/build-client.mjs && node scripts/test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    },
+    "compatibility": {
+      "dshReleases": {
+        "0.2.2-rc.3": "compatible"
+      }
+    }
+  }
+}

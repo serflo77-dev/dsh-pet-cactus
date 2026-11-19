@@ -1,0 +1,5 @@
+node_modules/
+preview/
+*.log
+*.tgz
+.DS_Store
